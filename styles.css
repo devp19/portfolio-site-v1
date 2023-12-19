@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +12,7 @@
 }
 
 .navbar {
-    border-bottom: 1px solid #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
     background: black;
     height: 80px;
     display: flex;
@@ -18,8 +22,6 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    
-   
 
 }
 
@@ -110,77 +112,129 @@ body {
     background-color: black;
     }
 
+#landing-content {
+    height: 800px;
+    overflow: auto;
 
-.homepage__image {
-    position: absolute;
-    display: flex;
-    height: 500px;
-    justify-content: center;
-    top: 150px;
-    left: 90px;
-    transition: ease-in;
+    .homepage__image {
+        position: absolute;
+        display: flex;
+        height: 530px;
+        justify-content: center;
+        top: 150px;
+        left: 90px;
+    }
+    
+    
+    .title__text{
+        position: absolute;
+        display: flex;
+        top: 240px;
+        left: 650px;
+        color: #6924f6;
+        font-size: 70px;
+        letter-spacing: 1px;
+        cursor: default;
+    
+    }
+    
+    .name__landing {
+        position: absolute;
+        display: flex;
+        top: 290px;
+        left: 647px;
+        color: #fff;
+        font-size: 200px;
+        letter-spacing: 1px;
+        cursor: default;
+    
+    }
+    
+    
+    .fa-github{
+        color: #fff;
+        background: transparent;
+        text-decoration: none;
+        background-color: none;
+        position: absolute;
+        display: flex;
+        top: 500px;
+        left: 655px;
+        transition: transform ease-out 300ms;
+    }
+    
+    .fa-github:hover{
+        display: flex;
+        color: #6924f6;
+        transform: translate(0, -10px);
+    }
+    
+    
+    .fa-linkedin-square{
+        color: white;
+        /* background: transparent; */
+        text-decoration: none;
+        background-color: none;
+        position: absolute;
+        display: flex;
+        top: 500px;
+        left: 730px;
+        transition: transform ease-out 300ms;
+    }
+    
+    .fa-linkedin-square:hover{
+        color: #6924f6;
+        display: flex;
+        transform: translate(0, -10px);
+    }
+    
+
+    .go-down{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        top: 700px;
+        left: 730px;
+        background: transparent;
+        color: #6924f6;
+        transition: transform ease-out 300ms;
+    }
+
+    .go-down:hover{
+        color: white;
+        display: flex;
+        transform: translate(0, -20px);
+    }
 }
 
 
-.title__text{
-    position: absolute;
-    display: flex;
-    top: 240px;
-    left: 650px;
-    color: #6924f6;
-    font-size: 70px;
-    letter-spacing: 1px;
-    cursor: default;
+#scroll-down {
+   
+    height: 750px;
+    background-color:black;
+   
+    .about__me {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 730px;
+        font-size: 90px;
+    }
+
+    .paragraph {
+        position: relative;
+        color: whitesmoke;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        top: 10px;
+        justify-content: center;
+    }
+
 
 }
 
-.name__landing {
-    position: absolute;
-    display: flex;
-    top: 290px;
-    left: 647px;
-    color: #fff;
-    font-size: 200px;
-    letter-spacing: 1px;
-    cursor: default;
 
-}
-
-
-
-.fa-github{
-    color: #fff;
-    background: transparent;
-    text-decoration: none;
-    background-color: none;
-    position: absolute;
-    display: flex;
-    top: 500px;
-    left: 655px;
-    transition: transform ease-out 300ms;
-}
-
-.fa-github:hover{
-    display: flex;
-    color: #6924f6;
-    transform: translate(0, -10px);
-}
-
-
-.fa-linkedin-square{
-    color: white;
-    /* background: transparent; */
-    text-decoration: none;
-    background-color: none;
-    position: absolute;
-    display: flex;
-    top: 500px;
-    left: 730px;
-    transition: transform ease-out 300ms;
-}
-
-.fa-linkedin-square:hover{
-    color: #6924f6;
-    display: flex;
-    transform: translate(0, -10px);
-}
