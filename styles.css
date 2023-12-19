@@ -4,7 +4,7 @@
     padding: 0;
     letter-spacing: 0.5px;
     font-family: zuume
-    
+
 }
 
 .navbar {
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -108,4 +108,79 @@
 
 body {
     background-color: black;
+    }
+
+
+.homepage__image {
+    position: absolute;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    top: 150px;
+    left: 90px;
+    transition: ease-in;
+}
+
+
+.title__text{
+    position: absolute;
+    display: flex;
+    top: 240px;
+    left: 650px;
+    color: #6924f6;
+    font-size: 70px;
+    letter-spacing: 1px;
+    cursor: default;
+
+}
+
+.name__landing {
+    position: absolute;
+    display: flex;
+    top: 290px;
+    left: 647px;
+    color: #fff;
+    font-size: 200px;
+    letter-spacing: 1px;
+    cursor: default;
+
+}
+
+
+
+.fa-github{
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    background-color: none;
+    position: absolute;
+    display: flex;
+    top: 500px;
+    left: 655px;
+    transition: transform ease-out 300ms;
+}
+
+.fa-github:hover{
+    display: flex;
+    color: #6924f6;
+    transform: translate(0, -10px);
+}
+
+
+.fa-linkedin-square{
+    color: white;
+    /* background: transparent; */
+    text-decoration: none;
+    background-color: none;
+    position: absolute;
+    display: flex;
+    top: 500px;
+    left: 730px;
+    transition: transform ease-out 300ms;
+}
+
+.fa-linkedin-square:hover{
+    color: #6924f6;
+    display: flex;
+    transform: translate(0, -10px);
 }
