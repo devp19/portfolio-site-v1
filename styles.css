@@ -196,15 +196,17 @@ body {
 }
 
 #about-me {
-  height: 680px;
+  height: 740px;
   background-color: black;
 
   .about__me {
     color: white;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    font-size: 90px;
+    position: relative;
+    top: 0px;
+    font-size: 83px;
     cursor: default;
   }
 
@@ -217,4 +219,19 @@ body {
     justify-content: center;
     cursor: default;
   }
+
+  .code-snippet {
+    position: relative;
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    top: 35px;
+    left: 162px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+  
+    
+  }
 }
+  
