@@ -11,8 +11,8 @@ html {
 }
 
 .navbar {
-  border-bottom: 2px solid #1a1a1a;
-  background: black;
+  border-bottom: 2px solid #b5a997;
+  background-color: #0b0a09;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -51,25 +51,6 @@ html {
   text-align: center;
 }
 
-.navbar__item {
-  height: 80px;
-}
-
-.navbar__links {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  transition: 0.5s;
-}
-
-.navbar__links:hover {
-  background: #fff;
-  color: black;
-}
 
 .navbar__btn {
   display: flex;
@@ -90,18 +71,30 @@ html {
   text-decoration: none;
   outline: none;
   border-radius: 4px;
-  background: #6924f6;
+  background: #b5a997;
   color: white;
   transition: 0.5s;
 }
 
 .button:hover {
-  background: #fff;
-  color: black;
-}
+  background: #c8c7c5;
+}#c8c7c5
 
 body {
-  background-color: black;
+position: relative;
+overflow: auto;
+}
+
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: url('/images/GitHub Banner PSD FILE.png') center/cover;
+opacity: 0.5; /* Adjust the opacity as needed */
+z-index: -1;
 }
 
 #landing-content {
@@ -122,7 +115,7 @@ body {
     display: flex;
     top: 240px;
     left: 650px;
-    color: #6924f6;
+    color: #b5a997;
     font-size: 70px;
     letter-spacing: 1px;
     cursor: default;
@@ -133,14 +126,14 @@ body {
     display: flex;
     top: 290px;
     left: 647px;
-    color: #fff;
+    color: #0b0a09;
     font-size: 200px;
     letter-spacing: 1px;
     cursor: default;
   }
 
   .fa-github {
-    color: #fff;
+    color: #c8c7c5;
     background: transparent;
     text-decoration: none;
     background-color: none;
@@ -153,12 +146,12 @@ body {
 
   .fa-github:hover {
     display: flex;
-    color: #6924f6;
+    color: #b5a997;
     transform: translate(0, -10px);
   }
 
   .fa-linkedin-square {
-    color: white;
+    color: #c8c7c5;
     /* background: transparent; */
     text-decoration: none;
     background-color: none;
@@ -170,37 +163,34 @@ body {
   }
 
   .fa-linkedin-square:hover {
-    color: #6924f6;
+    color: #b5a997;
     display: flex;
     transform: translate(0, -10px);
   }
 
-  .go-down {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; /* Align at the bottom */
-    position: absolute; /* or absolute, depending on your layout */
-    bottom: 80px; /* Stick to the bottom */
-    width: 100%; /* Full width */
-    text-decoration: none;
-    background: transparent;
-    color: #6924f6;
-    transition: transform ease-out 300ms;
-  }
 
-  .go-down:hover {
-    color: white;
-    display: flex;
-    transform: translate(0, -20px);
+  .go-down {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    text-decoration: none;
+    color: #0b0a09;
+    transition: transform 0.3s ease-out;
+    padding: 10px;
   }
+  
+  .go-down:hover {
+    transform: translateY(-40px);
+    color: #b5a997
+  }
+  
 }
 
 #about-me {
   height: 740px;
-  background-color: black;
 
   .about__me {
-    color: white;
+    color: #0b0a09;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -212,7 +202,7 @@ body {
 
   .paragraph {
     position: relative;
-    color: #6924f6;
+    color: #b5a997;
     display: flex;
     font-size: 20px;
     top: 10px;
@@ -220,18 +210,80 @@ body {
     cursor: default;
   }
 
-  .code-snippet {
+  .blur-box {
+    height: 500px;
+    width: 900px;
     position: relative;
+    top: 30px;
+    left: 280px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    border-radius: 3cqmin;
     display: flex;
-    height: 550px;
-    justify-content: center;
-    top: 35px;
-    left: 162px;
-    margin-left: 90px;
-    margin-right: 90px;
-    border-radius: 10px;
-  
+    z-index: -1;
+    border: 2px solid #b5a997;
+    }
     
+  .code-snippet {
+    font-size: 25px;
+    white-space: pre-wrap;
+    left: 310px;
+    top:1000px;
+    position: absolute;
+  
+  }
+  
+  .aboutpara {
+	  
+    position: absolute;
+    top: -20px;
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    color: #0b0a09;
+    margin: -30px;
+    width: 2300%;
+    cursor: default;
+  }
+
+  .about-redirect {
+    display: flex;
+    position: absolute;
+    left: 945px;
+    bottom: -666px;
+    padding: 0 1rem;
+    width: 15%;
+  }
+
+
+  .go-up {
+    position: absolute;
+  
+    display: flex;
+    left: 90%;
+    bottom: -700px;
+    text-decoration: none;
+    color: #0b0a09;
+    transition: transform 0.3s ease-out;
+    padding: 10px;
+  }
+  
+  .go-up:hover {
+    transform: translateY(-40px);
+    color: #b5a997
   }
 }
-  
+
+  .Project__Title {
+    color: #0b0a09;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    font-size: 83px;
+    cursor: default;
+  }
+
+
+
