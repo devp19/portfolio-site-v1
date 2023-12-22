@@ -96,7 +96,7 @@ body::before {
 }
 
 #landing-content {
-  height: 800px;
+  height: 830px;
   overflow: auto;
 
   .homepage__image {
@@ -212,7 +212,7 @@ body::before {
     width: 900px;
     position: relative;
     top: -20px;
-    left: 22%;
+    left: 20%;
     background-color: rgb(255, 255, 255);
     opacity: 0.5;
     border-radius: 3cqmin;
@@ -230,11 +230,11 @@ body::before {
 
   .aboutpara {
     position: absolute;
-    top: 20px;
+    top: 22px;
     font-size: 20px;
     line-height: 50px;
     color: #0b0a09;
-    left: 400px;
+    left: 380px;
     max-width: 50%; /* Adjust the value as needed */
     word-wrap: break-word;
     cursor: default;
@@ -268,3 +268,145 @@ body::before {
   font-size: 83px;
   cursor: default;
 }
+
+#project-1 {
+  .project-box-1 {
+      height: 450px;
+      width: 900px;
+      left: 20%;
+      position: relative;
+      top: 20px;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.5;
+      border-radius: 3cqmin;
+      display: flex;
+      z-index: -1;
+      border: 2px solid #b5a997;
+  }
+
+  .StockEye-Name {
+    display: flex;
+    position: relative;
+    top: -410px;
+    left: 22%;
+    font-size: 40px;
+
+  }
+
+  .StockEye-WhatType {
+    display: flex;
+    position: relative;
+    top: -446px;
+    left: 70%;
+    font-size: 23px;
+    color: #b5a997;
+    font-style: italic;
+    cursor: default;
+  }
+
+  .StockEye {
+      position: relative;
+      display: flex;
+      font-size: 25px;
+      top: -170px;
+    }
+
+  }
+  .StockEye-Desc {
+    position: relative;
+    top: -240px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #0b0a09;
+    left: 325px;
+    max-width: 55%; /* Adjust the value as needed */
+    word-wrap: break-word;
+    cursor: default;
+  }
+
+  .LanguageJS {
+    display: flex;
+    position: relative;
+    top: -370px;
+    left: 323px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #b5a997;
+    cursor: default;
+    transition: transform 0.2s ease-out;
+    transition: 0.5s;
+  }
+
+  .LanguageH {
+    display: flex;
+    position: relative;
+    top: -410px;
+    left: 433px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #b5a997;
+    cursor: default;
+    transition: transform 0.2s ease-out;
+    transition: 0.5s;
+  }
+
+  .LanguageP {
+    display: flex;
+    position: relative;
+    top: -450px;
+    left: 543px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #b5a997;
+    cursor: default;
+    transition: transform 0.2s ease-out;
+    transition: 0.5s;
+  }
+
+
+  .LanguageH:hover {
+    transform: translateY(-20px);
+  }
+
+  .LanguageJS:hover {
+    transform: translateY(-20px);
+  }
+
+  .LanguageP:hover {
+    transform: translateY(-20px);
+  }
+
+  .view {
+    display: flex;
+    position: relative;
+    top: -490px;
+    left: 1043px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #0b0a09;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .view:hover {
+    background-color: #b5a997;
+    transform: translateY(-20px);
+  }
