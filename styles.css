@@ -102,6 +102,8 @@ body::before {
   z-index: -1;
 }
 
+
+
 #landing-content {
   height: 730px;
   overflow-x: hidden;
@@ -153,6 +155,14 @@ body::before {
     padding: 10px;
   }
 
+  @media screen and (max-width: 2560px) {
+    .fa-github {
+      top: 490px;
+      left: 625px;
+    }
+  }
+  
+
   .fa-github:hover {
     color: #b5a997;
     display: flex;
@@ -173,11 +183,20 @@ body::before {
     transition: transform ease-out 300ms;
   }
 
+  @media screen and (max-width: 2560px) {
+    .fa-linkedin-square {
+      top: 490px;
+      left: 705px;
+    }
+  }
+
+
   .fa-linkedin-square:hover {
     display: flex;
     color: #b5a997;
     transform: translate(0, -10px);
   }
+
 
   .go-down {
     position: absolute;
