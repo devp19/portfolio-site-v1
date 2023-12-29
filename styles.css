@@ -149,16 +149,24 @@ body::before {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 490px;
-    left: 680px;
     transition: transform ease-out 300ms;
     padding: 10px;
   }
-
-  @media screen and (max-width: 2560px) {
+  
+  
+  /* Media query for screens with a maximum width of 2560px */
+  @media screen and (min-width: 1601px) and (max-width: 2560px) {
     .fa-github {
       top: 490px;
-      left: 625px;
+      left: 705px;
+    }
+  }
+
+  /* Default styles for screens up to 1600px */
+  @media screen and (max-width: 1600px) {
+    .fa-github {
+      top: 490px;
+      left: 620px;
     }
   }
   
@@ -177,16 +185,23 @@ body::before {
     position: absolute;
     display: flex;
     justify-content: center;
-    top: 490px;
-    left: 760px;
     padding: 10px;
     transition: transform ease-out 300ms;
   }
 
-  @media screen and (max-width: 2560px) {
+  /* Media query for screens with a maximum width of 2560px */
+  @media screen and (min-width: 1601px) and (max-width: 2560px) {
     .fa-linkedin-square {
       top: 490px;
-      left: 705px;
+      left: 605px;
+    }
+  }
+
+  /* Default styles for screens up to 1600px */
+  @media screen and (max-width: 1600px) {
+    .fa-linkedin-square {
+      top: 490px;
+      left: 700px;
     }
   }
 
