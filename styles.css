@@ -149,23 +149,24 @@ body::before {
     position: absolute;
     transition: transform ease-out 300ms;
     padding: 10px;
+    top: 490px;
+    left: 680px;
   }
 
-  /* Media query for screens with a maximum width of 2560px */
-  @media screen and (min-width: 1601px) and (max-width: 2560px) {
+  @media only screen 
+  and (min-device-width: 1470px) 
+  and (max-device-width: 1470px) 
+  and (min-device-height: 956px) 
+  and (max-device-height: 956px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
     .fa-github {
       top: 490px;
-      left: 705px;
+      left: 625px;
     }
-  }
+}
 
-  /* Default styles for screens up to 1600px */
-  @media screen and (max-width: 1600px) {
-    .fa-github {
-      top: 490px;
-      left: 680px;
-    }
-  }
+ 
 
   .fa-github:hover {
     color: #b5a997;
@@ -183,23 +184,24 @@ body::before {
     justify-content: center;
     padding: 10px;
     transition: transform ease-out 300ms;
+    top: 490px;
+    left: 760px;
   }
 
-  /* Media query for screens with a maximum width of 2560px */
-  @media screen and (min-width: 1601px) and (max-width: 2560px) {
+  @media only screen 
+  and (min-device-width: 1470px) 
+  and (max-device-width: 1470px) 
+  and (min-device-height: 956px) 
+  and (max-device-height: 956px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
     .fa-linkedin-square {
       top: 490px;
-      left: 605px;
+      left: 690px;
     }
-  }
+}
 
-  /* Default styles for screens up to 1600px */
-  @media screen and (max-width: 1600px) {
-    .fa-linkedin-square {
-      top: 490px;
-      left: 760px;
-    }
-  }
+  
 
   .fa-linkedin-square:hover {
     display: flex;
