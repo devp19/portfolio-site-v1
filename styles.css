@@ -104,7 +104,7 @@ body::before {
 
 #landing-content {
   height: 830px;
-  overflow: auto;
+  overflow-x: hidden;
 
   .homepage__image {
     position: absolute;
@@ -116,10 +116,11 @@ body::before {
   }
 
   .title__text {
-    position: absolute;
+    position: relative;
     display: flex;
-    top: 240px;
-    left: 650px;
+    top: 100px;
+    left: -30px;
+    justify-content: center;
     color: #b5a997;
     font-size: 70px;
     letter-spacing: 1px;
@@ -127,10 +128,11 @@ body::before {
   }
 
   .name__landing {
-    position: absolute;
+    position: relative;
     display: flex;
-    top: 290px;
-    left: 647px;
+    top: -50px;
+    justify-content: center;
+    left: 185px;
     color: #0b0a09;
     font-size: 200px;
     letter-spacing: 1px;
@@ -142,16 +144,18 @@ body::before {
     background: transparent;
     text-decoration: none;
     background-color: none;
-    position: absolute;
     display: flex;
-    top: 500px;
-    left: 655px;
+    justify-content: center;
+    position: absolute;
+    top: 490px;
+    left: 680px;
     transition: transform ease-out 300ms;
+    padding: 10px;
   }
 
   .fa-github:hover {
-    display: flex;
     color: #b5a997;
+    display: flex;
     transform: translate(0, -10px);
   }
 
@@ -162,14 +166,16 @@ body::before {
     background-color: none;
     position: absolute;
     display: flex;
-    top: 500px;
-    left: 730px;
+    justify-content: center;
+    top: 490px;
+    left: 760px;
+    padding: 10px;
     transition: transform ease-out 300ms;
   }
 
   .fa-linkedin-square:hover {
-    color: #b5a997;
     display: flex;
+    color: #b5a997;
     transform: translate(0, -10px);
   }
 
