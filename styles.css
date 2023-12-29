@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  max-width: 98%;
   margin: 0 auto;
 }
 
@@ -13,6 +12,7 @@ html {
 
 body {
   overflow-x: clip;
+  max-width: 99%;
 }
 
 .navbar {
@@ -103,7 +103,7 @@ body::before {
 }
 
 #landing-content {
-  height: 830px;
+  height: 730px;
   overflow-x: hidden;
 
   .homepage__image {
@@ -196,7 +196,7 @@ body::before {
 }
 
 #about-me {
-  height: 630px;
+  height: 730px;
 
   .about__me {
     color: #0b0a09;
@@ -204,7 +204,7 @@ body::before {
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    top: -50px;
+    top: 60px;
     left: 0%;
     font-size: 83px;
     cursor: default;
@@ -215,25 +215,26 @@ body::before {
     color: #b5a997;
     display: flex;
     font-size: 20px;
-    top: -50px;
+    top: 0px;
     justify-content: center;
     cursor: default;
   }
 
   .blur-box {
+    display: flex;
     height: 500px;
     width: 900px;
     position: relative;
-    top: -20px;
-    left: 20%;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     background-color: rgb(255, 255, 255);
     opacity: 0.5;
-    border-radius: 3cqmin;
-    display: flex;
+    border-radius: 3cqmin; /* Fix the typo here */
     z-index: -1;
     border: 2px solid #b5a997;
   }
-
   .code-snippet {
     position: relative;
     display: flex;
@@ -255,11 +256,11 @@ body::before {
   }
 
   .go-up {
-    position: absolute;
-
+    position: absolute; /* Change from absolute to fixed for a fixed position */
     display: flex;
-    left: 90%;
-    bottom: -700px;
+    top: 1500px;
+    right: 20px; /* Adjust the right property to position it from the right edge */
+    bottom: 20px; /* Adjust the bottom property to position it from the bottom edge */
     text-decoration: none;
     color: #0b0a09;
     transition: transform 0.3s ease-out;
