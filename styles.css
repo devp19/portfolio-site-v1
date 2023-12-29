@@ -102,8 +102,6 @@ body::before {
   z-index: -1;
 }
 
-
-
 #landing-content {
   height: 730px;
   overflow-x: hidden;
@@ -152,8 +150,7 @@ body::before {
     transition: transform ease-out 300ms;
     padding: 10px;
   }
-  
-  
+
   /* Media query for screens with a maximum width of 2560px */
   @media screen and (min-width: 1601px) and (max-width: 2560px) {
     .fa-github {
@@ -166,10 +163,9 @@ body::before {
   @media screen and (max-width: 1600px) {
     .fa-github {
       top: 490px;
-      left: 620px;
+      left: 680px;
     }
   }
-  
 
   .fa-github:hover {
     color: #b5a997;
@@ -201,17 +197,15 @@ body::before {
   @media screen and (max-width: 1600px) {
     .fa-linkedin-square {
       top: 490px;
-      left: 700px;
+      left: 760px;
     }
   }
-
 
   .fa-linkedin-square:hover {
     display: flex;
     color: #b5a997;
     transform: translate(0, -10px);
   }
-
 
   .go-down {
     position: absolute;
