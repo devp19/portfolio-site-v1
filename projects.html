@@ -1,86 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Patel - Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/zuume" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dev Patel - Projects</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.cdnfonts.com/css/zuume" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">DEV PATEL</a>
 
-</head>
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <a href="/" class="button">HOME</a>
+          </li>
 
-<body>
+          <li class="navbar__btn">
+            <a href="/projects.html" class="button">PROJECTS</a>
+          </li>
 
-  <nav class="navbar">
-    <div class="navbar__container">
-      <a href="/" id="navbar__logo">DEV PATEL</a>
+          <li class="navbar__btn">
+            <a href="/contacts.html" class="button">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <h1 class="Project__Title">PROJECTS</h1>
 
-      <ul class="navbar__menu">
-        <li class="navbar__btn">
-          <a href="/" class="button">HOME</a>
-        </li>
+    <div id="project-1">
+      <div class="project-box-1"></div>
+      <h2 class="StockEye-Name">StockEye</h2>
+      <h2 class="StockEye-WhatType">&lt; Discord Bot &gt;</h2>
+      <p class="StockEye">
+        <span class="StockEye-Desc">
+          StockEye is a discord bot developed with the intent to reduce a
+          trader’s dependency on manual research efforts by automating the
+          process of investment analysis. So far, on average, efficiently
+          improved trader’s investment habits by 34% amongst a selection of
+          manual versus bot-user participants. Holds the capability to create
+          new channels for your investment portfolio, provide company research,
+          provide live-market data and much more! Currently working on
+          implementing a machine-learning algorithm to model/predict future
+          stock movements from historical price data.
+        </span>
+      </p>
 
-        <li class="navbar__btn">
-          <a href="/projects.html" class="button">PROJECTS</a>
-        </li>
+      <div class="languages">
+        <p class="LanguageJS">JavaScript</p>
+        <p class="LanguageH">HTML/CSS</p>
+        <p class="LanguageP">Python</p>
+      </div>
 
-        <li class="navbar__btn">
-          <a href="/contacts.html" class="button">CONTACT</a>
-        </li>
-      </ul>
+      <a href="https://github.com/devp19/StockEye" class="view" target="_blank"
+        >View On GitHub</a
+      >
     </div>
-  </nav>
 
-  <h1 class="Project__Title">PROJECTS</h1>
-
-  <div id="project-1">
-
-    <div class="project-box-1"></div>
-    <h2 class="StockEye-Name">StockEye </h2>
-    <h2 class="StockEye-WhatType"> &lt; Discord Bot &gt;</h2>
-    <p class="StockEye">
-
-      <span class="StockEye-Desc">
-        StockEye is a discord bot developed with the intent to reduce a trader’s dependency on manual research efforts
-        by automating the process of investment analysis. So far, on average, efficiently improved trader’s investment
-        habits by 34% amongst a selection of manual versus bot-user participants. Holds the capability to create new
-        channels for your investment portfolio, provide company research, provide live-market data and much more!
-        Currently working on implementing a machine-learning algorithm to model/predict future stock movements from
-        historical price data.
-      </span>
-
-    </p>
-
-    <div class="languages">
-      <p class="LanguageJS">JavaScript</p>
-      <p class="LanguageH">HTML/CSS</p>
-      <p class="LanguageP">Python</p>
+    <div id="project-2">
+      <div class="project-box-2"></div>
+      <h2 class="AutoMail-Name">AutoMail</h2>
+      <h2 class="AutoMail-WhatType">&lt; Python Script &gt;</h2>
+      <p class="AutoMail">
+        <span class="AutoMail-Desc">
+          Developed a code-friendly solution for mass-mailing employees or
+          registered users through email-sign ups. Used a simple .csv
+          file-reading approach for email identification along with name, ID and
+          any other related information to dynamically populate a desired text
+          file.
+        </span>
+      </p>
     </div>
-
-
-    <a href="https://github.com/devp19/StockEye" class="view" target="_blank">View On GitHub</a>
-
-  </div>
-
-  <div id="project-2">
-    <div class="project-box-2"></div>
-    <h2 class="AutoMail-Name">AutoMail</h2>
-    <h2 class="AutoMail-WhatType">&lt; Python Script &gt;</h2>
-    <p class="AutoMail">
-      <span class="AutoMail-Desc">
-        Developed a code-friendly solution for mass-mailing employees or registered users through email-sign ups. Used a
-        simple .csv file-reading approach for email identification along with name, ID and any other related information
-        to dynamically populate a desired text file.
-      </span>
-    </p>
-
-
-  </div>
-
-
-</body>
-
+  </body>
 </html>

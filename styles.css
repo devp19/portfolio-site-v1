@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  max-width: 100%;
+  max-width: 98%;
 }
 
 * {
@@ -300,7 +300,6 @@ body::before {
     top: -410px;
     left: 22%;
     font-size: 40px;
-
   }
 
   .StockEye-WhatType {
@@ -320,7 +319,6 @@ body::before {
     font-size: 25px;
     top: -170px;
   }
-
 
   .StockEye-Desc {
     position: relative;
@@ -386,7 +384,6 @@ body::before {
     transition: 0.5s;
   }
 
-
   .LanguageH:hover {
     transform: translateY(-20px);
   }
@@ -423,12 +420,9 @@ body::before {
   }
 }
 
-
 #project-2 {
-
   position: relative;
   top: -400px;
-
 
   .project-box-2 {
     height: 450px;
@@ -450,7 +444,6 @@ body::before {
     top: -410px;
     left: 22%;
     font-size: 40px;
-
   }
 
   .AutoMail-WhatType {
@@ -470,7 +463,6 @@ body::before {
     font-size: 25px;
     top: -170px;
   }
-
 }
 
 .AutoMail-Desc {
