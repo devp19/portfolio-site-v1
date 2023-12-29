@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  margin: 0 auto;
 }
 
 * {
@@ -12,7 +11,6 @@ html {
 
 body {
   overflow-x: clip;
-  max-width: 99%;
 }
 
 .navbar {
@@ -228,6 +226,7 @@ body::before {
 #about-me {
   height: 730px;
 
+
   .about__me {
     color: #0b0a09;
     display: flex;
@@ -239,6 +238,18 @@ body::before {
     font-size: 83px;
     cursor: default;
   }
+
+  @media only screen 
+  and (min-device-width: 1470px) 
+  and (max-device-width: 1470px) 
+  and (min-device-height: 956px) 
+  and (max-device-height: 956px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
+    .about__me {
+      top: 60px;
+    }
+}
 
   .paragraph {
     position: relative;
@@ -265,6 +276,21 @@ body::before {
     z-index: -1;
     border: 2px solid #b5a997;
   }
+
+  @media only screen 
+  and (min-device-width: 1470px) 
+  and (max-device-width: 1470px) 
+  and (min-device-height: 956px) 
+  and (max-device-height: 956px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
+    .blur-box {
+      height: 550px;
+      top: 240px;
+    }
+}
+
+
   .code-snippet {
     position: relative;
     display: flex;
