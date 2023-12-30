@@ -639,9 +639,7 @@ body::before {
       margin-left: 23%;
     }
 
-    #project-3 {
-      top: -725px;
-    }
+    top: -725px;
   }
 }
 
