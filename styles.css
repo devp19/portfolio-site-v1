@@ -525,7 +525,7 @@ body::before {
 
 #project-2 {
   position: relative;
-  top: -725px;
+  top: -699px;
 
   .project-box-2 {
     height: 450px;
@@ -637,6 +637,10 @@ body::before {
     .LanguagePython {
       top: -482px;
       margin-left: 23%;
+    }
+
+    #project-3 {
+      top: -725px;
     }
   }
 }
