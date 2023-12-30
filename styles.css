@@ -521,8 +521,6 @@ body::before {
       top: -940px;
     }
   }
-
-  
 }
 
 #project-2 {
@@ -632,7 +630,7 @@ body::before {
       margin-left: 32%;
     }
 
-    .view-two{
+    .view-two {
       top: -538px;
     }
 
@@ -640,6 +638,5 @@ body::before {
       top: -482px;
       margin-left: 23%;
     }
-
   }
 }
