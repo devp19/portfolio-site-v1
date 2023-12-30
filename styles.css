@@ -151,7 +151,7 @@ body::before {
     left: 680px;
   }
 
-  @media only screen and (min-device-width: 1470px) and (max-device-width: 1470px) and (min-device-height: 956px) and (max-device-height: 956px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     /* Styles specific to MacBook Air 13-inch */
     .fa-github {
       top: 490px;
@@ -179,8 +179,7 @@ body::before {
     left: 760px;
   }
 
-  @media only screen and (min-device-width: 1470px) and (max-device-width: 1470px) and (min-device-height: 956px) and (max-device-height: 956px) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {   /* Styles specific to MacBook Air 13-inch */
     .fa-linkedin-square {
       top: 490px;
       left: 690px;
@@ -224,10 +223,9 @@ body::before {
     cursor: default;
   }
 
-  @media only screen and (min-device-width: 1470px) and (max-device-width: 1470px) and (min-device-height: 956px) and (max-device-height: 956px) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {     /* Styles specific to MacBook Air 13-inch */
     .about__me {
-      top: 60px;
+      top: 40px;
     }
   }
 
@@ -257,8 +255,7 @@ body::before {
     border: 2px solid #b5a997;
   }
 
-  @media only screen and (min-device-width: 1470px) and (max-device-width: 1470px) and (min-device-height: 956px) and (max-device-height: 956px) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {     /* Styles specific to MacBook Air 13-inch */
     .blur-box {
       height: 550px;
       top: 240px;
@@ -285,6 +282,13 @@ body::before {
     cursor: default;
   }
 
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {     /* Styles specific to MacBook Air 13-inch */
+    .aboutpara {
+      top: 35px
+    }
+  }
+  
   .go-up {
     position: absolute; /* Change from absolute to fixed for a fixed position */
     display: flex;
