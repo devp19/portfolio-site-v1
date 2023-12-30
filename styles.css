@@ -641,11 +641,9 @@ body::before {
   }
 }
 
-
-
 #project-3 {
   position: relative;
-  top: -1050px;
+  top: -1090px;
 
   .project-box-3 {
     height: 350px;
@@ -673,7 +671,7 @@ body::before {
     display: flex;
     position: relative;
     top: -509px;
-    margin-left: 31%;
+    margin-left: 32%;
     font-size: 23px;
     color: #b5a997;
     font-style: italic;
@@ -724,7 +722,7 @@ body::before {
   .LanguageOOP {
     display: flex;
     position: relative;
-    top: -620px;
+    top: -556px;
     margin-left: 31%;
     justify-content: center;
     align-items: center;
@@ -745,7 +743,7 @@ body::before {
   .view-three {
     display: flex;
     position: relative;
-    top: -556px;
+    top: -612px;
     margin-left: 70%;
     justify-content: center;
     align-items: center;
@@ -782,7 +780,10 @@ body::before {
 
     .LanguageOOP {
       top: -538px;
+    }
 
+    #project-3 {
+      top: -1050px;
     }
   }
 }
