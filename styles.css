@@ -640,3 +640,149 @@ body::before {
     }
   }
 }
+
+
+
+#project-3 {
+  position: relative;
+  top: -1050px;
+
+  .project-box-3 {
+    height: 350px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    top: -80px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    border-radius: 3cqmin;
+    display: flex;
+    z-index: -1;
+    border: 2px solid #b5a997;
+  }
+
+  .BlackJack-Name {
+    display: flex;
+    position: relative;
+    top: -440px;
+    margin-left: 23%;
+    font-size: 40px;
+  }
+
+  .BlackJack-WhatType {
+    display: flex;
+    position: relative;
+    top: -509px;
+    margin-left: 31%;
+    font-size: 23px;
+    color: #b5a997;
+    font-style: italic;
+    cursor: default;
+  }
+
+  .BlackJack {
+    position: relative;
+    display: flex;
+    font-size: 25px;
+    top: -170px;
+  }
+
+  .BlackJack-Desc {
+    position: relative;
+    top: -340px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #0b0a09;
+    margin-left: 23%;
+    max-width: 54%;
+    /* Adjust the value as needed */
+    word-wrap: break-word;
+    cursor: default;
+  }
+
+  .LanguagePython3 {
+    display: flex;
+    position: relative;
+    top: -500px;
+    margin-left: 23%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #b5a997;
+    cursor: default;
+    transition: transform 0.2s ease-out;
+    transition: 0.5s;
+  }
+
+  .LanguagePython3:hover {
+    transform: translateY(-20px);
+  }
+
+  .LanguageOOP {
+    display: flex;
+    position: relative;
+    top: -620px;
+    margin-left: 31%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    color: white;
+    background-color: #b5a997;
+    cursor: default;
+    transition: transform 0.2s ease-out;
+    transition: 0.5s;
+  }
+
+  .LanguageOOP:hover {
+    transform: translateY(-20px);
+  }
+
+  .view-three {
+    display: flex;
+    position: relative;
+    top: -556px;
+    margin-left: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #0b0a09;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .view-three:hover {
+    background-color: #b5a997;
+    transform: translateY(-20px);
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
+    .BlackJack-WhatType {
+      margin-left: 33%;
+    }
+
+    .view-three {
+      top: -593px;
+    }
+
+    .LanguagePython3 {
+      top: -482px;
+      margin-left: 23%;
+    }
+
+    .LanguageOOP {
+      top: -538px;
+
+    }
+  }
+}
