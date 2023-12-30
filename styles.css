@@ -369,6 +369,13 @@ body::before {
     cursor: default;
   }
 
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
+    .StockEye-WhatType {
+      margin-left: 32%;
+    }
+  }
+
   .StockEye {
     position: relative;
     display: flex;
@@ -410,7 +417,7 @@ body::before {
     display: flex;
     position: relative;
     top: -564px;
-    margin-left: 37%;
+    margin-left: 39%;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -427,7 +434,7 @@ body::before {
     display: flex;
     position: relative;
     top: -620px;
-    margin-left: 30%;
+    margin-left: 31%;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -491,6 +498,31 @@ body::before {
   .project-scroll:hover {
     transform: translateY(20px);
   }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
+    .view {
+      top: -720px;
+    }
+
+    .LanguageH {
+      top: -608px;
+    }
+
+    .LanguageJS {
+      top: -552px;
+    }
+
+    .LanguageP {
+      top: -664px;
+    }
+
+    .project-scroll {
+      top: -940px;
+    }
+  }
+
+  
 }
 
 #project-2 {
@@ -592,5 +624,22 @@ body::before {
   .view-two:hover {
     background-color: #b5a997;
     transform: translateY(-20px);
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
+    .AutoMail-WhatType {
+      margin-left: 32%;
+    }
+
+    .view-two{
+      top: -538px;
+    }
+
+    .LanguagePython {
+      top: -482px;
+      margin-left: 23%;
+    }
+
   }
 }
