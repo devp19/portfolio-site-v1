@@ -111,6 +111,7 @@ body::before {
     justify-content: center;
     top: 150px;
     left: 90px;
+    image-rendering: pixelated;
   }
 
   .title__text {
@@ -179,7 +180,8 @@ body::before {
     left: 760px;
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {   /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
     .fa-linkedin-square {
       top: 490px;
       left: 690px;
@@ -223,7 +225,8 @@ body::before {
     cursor: default;
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {     /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
     .about__me {
       top: 40px;
     }
@@ -255,7 +258,8 @@ body::before {
     border: 2px solid #b5a997;
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {     /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
     .blur-box {
       height: 550px;
       top: 240px;
@@ -282,10 +286,10 @@ body::before {
     cursor: default;
   }
 
-
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {     /* Styles specific to MacBook Air 13-inch */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles specific to MacBook Air 13-inch */
     .aboutpara {
-      top: 35px
+      top: 35px;
     }
   }
 
@@ -318,9 +322,19 @@ body::before {
   cursor: default;
 }
 
+.gold-under {
+  height: 5px;
+  width: 190px;
+  top: -60px;
+  position: relative;
+  display: flex;
+  margin: auto;
+  background-color: #b5a997;
+}
+
 #project-1 {
   position: relative;
-  top: 0px;
+  height: 730px;
 
   .project-box-1 {
     height: 450px;
@@ -339,16 +353,16 @@ body::before {
   .StockEye-Name {
     display: flex;
     position: relative;
-    top: -410px;
-    left: 22%;
+    top: -460px;
+    margin-left: 23%;
     font-size: 40px;
   }
 
   .StockEye-WhatType {
     display: flex;
     position: relative;
-    top: -446px;
-    left: 70%;
+    top: -530px;
+    margin-left: 31%;
     font-size: 23px;
     color: #b5a997;
     font-style: italic;
@@ -364,12 +378,12 @@ body::before {
 
   .StockEye-Desc {
     position: relative;
-    top: -240px;
+    top: -360px;
     font-size: 20px;
     line-height: 50px;
     color: #0b0a09;
-    left: 325px;
-    max-width: 55%;
+    margin-left: 23%;
+    max-width: 54%;
     /* Adjust the value as needed */
     word-wrap: break-word;
     cursor: default;
@@ -378,8 +392,8 @@ body::before {
   .LanguageJS {
     display: flex;
     position: relative;
-    top: -370px;
-    left: 323px;
+    top: -508px;
+    margin-left: 23%;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -395,8 +409,8 @@ body::before {
   .LanguageH {
     display: flex;
     position: relative;
-    top: -410px;
-    left: 433px;
+    top: -564px;
+    margin-left: 37%;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -412,8 +426,8 @@ body::before {
   .LanguageP {
     display: flex;
     position: relative;
-    top: -450px;
-    left: 543px;
+    top: -620px;
+    margin-left: 30%;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -441,8 +455,8 @@ body::before {
   .view {
     display: flex;
     position: relative;
-    top: -490px;
-    left: 1043px;
+    top: -675px;
+    margin-left: 70%;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -460,16 +474,33 @@ body::before {
     background-color: #b5a997;
     transform: translateY(-20px);
   }
+
+  .project-scroll {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    width: 4.5%;
+    height: 10%;
+    top: -900px;
+    margin-left: 85%;
+    transition: 0.5s;
+  }
+
+  .project-scroll:hover {
+    transform: translateY(20px);
+  }
 }
 
 #project-2 {
   position: relative;
-  top: -400px;
+  top: -700px;
 
   .project-box-2 {
     height: 450px;
     width: 900px;
-    left: 20%;
+    margin: auto;
     position: relative;
     top: 20px;
     background-color: rgb(255, 255, 255);
@@ -483,16 +514,16 @@ body::before {
   .AutoMail-Name {
     display: flex;
     position: relative;
-    top: -410px;
-    left: 22%;
+    top: -440px;
+    margin-left: 23%;
     font-size: 40px;
   }
 
   .AutoMail-WhatType {
     display: flex;
     position: relative;
-    top: -446px;
-    left: 70%;
+    top: -509px;
+    margin-left: 31%;
     font-size: 23px;
     color: #b5a997;
     font-style: italic;
@@ -505,17 +536,61 @@ body::before {
     font-size: 25px;
     top: -170px;
   }
-}
 
-.AutoMail-Desc {
-  position: relative;
-  top: -240px;
-  font-size: 20px;
-  line-height: 50px;
-  color: #0b0a09;
-  left: 325px;
-  max-width: 55%;
-  /* Adjust the value as needed */
-  word-wrap: break-word;
-  cursor: default;
+  .AutoMail-Desc {
+    position: relative;
+    top: -340px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #0b0a09;
+    margin-left: 23%;
+    max-width: 54%;
+    /* Adjust the value as needed */
+    word-wrap: break-word;
+    cursor: default;
+  }
+
+  .LanguagePython {
+    display: flex;
+    position: relative;
+    top: -500px;
+    margin-left: 23%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #b5a997;
+    cursor: default;
+    transition: transform 0.2s ease-out;
+    transition: 0.5s;
+  }
+
+  .LanguagePython:hover {
+    transform: translateY(-20px);
+  }
+
+  .view-two {
+    display: flex;
+    position: relative;
+    top: -556px;
+    margin-left: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #0b0a09;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .view-two:hover {
+    background-color: #b5a997;
+    transform: translateY(-20px);
+  }
 }
