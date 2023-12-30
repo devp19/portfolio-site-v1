@@ -525,7 +525,7 @@ body::before {
 
 #project-2 {
   position: relative;
-  top: -700px;
+  top: -725px;
 
   .project-box-2 {
     height: 450px;
@@ -780,10 +780,6 @@ body::before {
 
     .LanguageOOP {
       top: -538px;
-    }
-
-    #project-3 {
-      top: -1050px;
     }
   }
 }
