@@ -344,7 +344,6 @@ body::before {
 
 #project-page {
 
-
   #project-1 {
     position: relative;
 
@@ -374,7 +373,7 @@ body::before {
     .StockEye-WhatType {
       display: flex;
       position: relative;
-      top: -530px;
+      top: -516px;
       margin-left: 31%;
       font-size: 23px;
       color: #b5a997;
