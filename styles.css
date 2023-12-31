@@ -153,6 +153,7 @@ body::before {
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
     /* Styles specific to MacBook Air 13-inch */
     .fa-github {
       top: 490px;
@@ -181,6 +182,7 @@ body::before {
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
     /* Styles specific to MacBook Air 13-inch */
     .fa-linkedin-square {
       top: 490px;
@@ -226,6 +228,7 @@ body::before {
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
     /* Styles specific to MacBook Air 13-inch */
     .about__me {
       top: 40px;
@@ -253,12 +256,14 @@ body::before {
 
     background-color: rgb(255, 255, 255);
     opacity: 0.5;
-    border-radius: 3cqmin; /* Fix the typo here */
+    border-radius: 3cqmin;
+    /* Fix the typo here */
     z-index: -1;
     border: 2px solid #b5a997;
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
     /* Styles specific to MacBook Air 13-inch */
     .blur-box {
       height: 550px;
@@ -287,6 +292,7 @@ body::before {
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
     /* Styles specific to MacBook Air 13-inch */
     .aboutpara {
       top: 35px;
@@ -294,11 +300,14 @@ body::before {
   }
 
   .go-up {
-    position: absolute; /* Change from absolute to fixed for a fixed position */
+    position: absolute;
+    /* Change from absolute to fixed for a fixed position */
     display: flex;
     top: 1500px;
-    right: 20px; /* Adjust the right property to position it from the right edge */
-    bottom: 20px; /* Adjust the bottom property to position it from the bottom edge */
+    right: 20px;
+    /* Adjust the right property to position it from the right edge */
+    bottom: 20px;
+    /* Adjust the bottom property to position it from the bottom edge */
     text-decoration: none;
     color: #0b0a09;
     transition: transform 0.3s ease-out;
@@ -332,456 +341,469 @@ body::before {
   background-color: #b5a997;
 }
 
-#project-1 {
-  position: relative;
-  height: 730px;
 
-  .project-box-1 {
-    height: 450px;
-    width: 900px;
+#project-page {
+
+
+  #project-1 {
     position: relative;
-    top: 0px;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5;
-    border-radius: 3cqmin;
-    display: flex;
-    z-index: -1;
-    border: 2px solid #b5a997;
-  }
 
-  .StockEye-Name {
-    display: flex;
-    position: relative;
-    top: -460px;
-    margin-left: 23%;
-    font-size: 40px;
-  }
+    .project-box-1 {
+      height: 450px;
+      width: 900px;
+      position: relative;
+      top: 0px;
+      margin: auto;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.5;
+      border-radius: 3cqmin;
+      display: flex;
+      z-index: -1;
+      border: 2px solid #b5a997;
+    }
 
-  .StockEye-WhatType {
-    display: flex;
-    position: relative;
-    top: -530px;
-    margin-left: 31%;
-    font-size: 23px;
-    color: #b5a997;
-    font-style: italic;
-    cursor: default;
-  }
+    .StockEye-Name {
+      display: flex;
+      position: relative;
+      top: -460px;
+      margin-left: 23%;
+      font-size: 40px;
+      margin-bottom: auto;
+    }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch */
     .StockEye-WhatType {
-      margin-left: 32%;
-    }
-  }
-
-  .StockEye {
-    position: relative;
-    display: flex;
-    font-size: 25px;
-    top: -170px;
-  }
-
-  .StockEye-Desc {
-    position: relative;
-    top: -360px;
-    font-size: 20px;
-    line-height: 50px;
-    color: #0b0a09;
-    margin-left: 23%;
-    max-width: 54%;
-    /* Adjust the value as needed */
-    word-wrap: break-word;
-    cursor: default;
-  }
-
-  .LanguageJS {
-    display: flex;
-    position: relative;
-    top: -508px;
-    margin-left: 23%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #b5a997;
-    cursor: default;
-    transition: transform 0.2s ease-out;
-    transition: 0.5s;
-  }
-
-  .LanguageH {
-    display: flex;
-    position: relative;
-    top: -564px;
-    margin-left: 39%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #b5a997;
-    cursor: default;
-    transition: transform 0.2s ease-out;
-    transition: 0.5s;
-  }
-
-  .LanguageP {
-    display: flex;
-    position: relative;
-    top: -620px;
-    margin-left: 31%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #b5a997;
-    cursor: default;
-    transition: transform 0.2s ease-out;
-    transition: 0.5s;
-  }
-
-  .LanguageH:hover {
-    transform: translateY(-20px);
-  }
-
-  .LanguageJS:hover {
-    transform: translateY(-20px);
-  }
-
-  .LanguageP:hover {
-    transform: translateY(-20px);
-  }
-
-  .view {
-    display: flex;
-    position: relative;
-    top: -675px;
-    margin-left: 70%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #0b0a09;
-    cursor: pointer;
-    transition: transform 0.2s ease-in;
-    text-decoration: none;
-    transition: 0.5s;
-  }
-
-  .view:hover {
-    background-color: #b5a997;
-    transform: translateY(-20px);
-  }
-
-  .project-scroll {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    margin: auto;
-    width: 4.5%;
-    height: 10%;
-    top: -900px;
-    margin-left: 85%;
-    transition: 0.5s;
-  }
-
-  .project-scroll:hover {
-    transform: translateY(20px);
-  }
-
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
-    .view {
-      top: -720px;
+      display: flex;
+      position: relative;
+      top: -530px;
+      margin-left: 31%;
+      font-size: 23px;
+      color: #b5a997;
+      font-style: italic;
+      cursor: default;
+  
     }
 
-    .LanguageH {
-      top: -608px;
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+      /* Styles specific to MacBook Air 13-inch */
+      .StockEye-WhatType {
+        margin-left: 32%;
+      }
+    }
+
+    .StockEye {
+      position: relative;
+      display: flex;
+      font-size: 25px;
+      top: -170px;
+    }
+
+    .StockEye-Desc {
+      position: relative;
+      top: -360px;
+      font-size: 20px;
+      line-height: 50px;
+      color: #0b0a09;
+      margin-left: 23%;
+      max-width: 54%;
+      /* Adjust the value as needed */
+      word-wrap: break-word;
+      cursor: default;
     }
 
     .LanguageJS {
-      top: -552px;
+      display: flex;
+      position: relative;
+      top: -508px;
+      margin-left: 23%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #b5a997;
+      cursor: default;
+      transition: transform 0.2s ease-out;
+      transition: 0.5s;
+    }
+
+    .LanguageH {
+      display: flex;
+      position: relative;
+      top: -564px;
+      margin-left: 39%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #b5a997;
+      cursor: default;
+      transition: transform 0.2s ease-out;
+      transition: 0.5s;
     }
 
     .LanguageP {
-      top: -664px;
+      display: flex;
+      position: relative;
+      top: -620px;
+      margin-left: 31%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #b5a997;
+      cursor: default;
+      transition: transform 0.2s ease-out;
+      transition: 0.5s;
+    }
+
+    .LanguageH:hover {
+      transform: translateY(-20px);
+    }
+
+    .LanguageJS:hover {
+      transform: translateY(-20px);
+    }
+
+    .LanguageP:hover {
+      transform: translateY(-20px);
+    }
+
+    .view {
+      display: flex;
+      position: relative;
+      top: -675px;
+      margin-left: 70%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #0b0a09;
+      cursor: pointer;
+      transition: transform 0.2s ease-in;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    .view:hover {
+      background-color: #b5a997;
+      transform: translateY(-20px);
     }
 
     .project-scroll {
-      top: -940px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      margin: auto;
+      width: 4.5%;
+      height: 10%;
+      top: -900px;
+      margin-left: 85%;
+      transition: 0.5s;
+    }
+
+    .project-scroll:hover {
+      transform: translateY(20px);
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+      /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
+      .view {
+        top: -720px;
+      }
+
+      .LanguageH {
+        top: -608px;
+      }
+
+      .LanguageJS {
+        top: -552px;
+      }
+
+      .LanguageP {
+        top: -664px;
+      }
+
+      .project-scroll {
+        top: -940px;
+      }
     }
   }
-}
 
-#project-2 {
-  position: relative;
-  top: -699px;
-
-  .project-box-2 {
-    height: 450px;
-    width: 900px;
-    margin: auto;
+  #project-2 {
     position: relative;
-    top: 20px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5;
-    border-radius: 3cqmin;
-    display: flex;
-    z-index: -1;
-    border: 2px solid #b5a997;
-  }
+    top: -699px;
 
-  .AutoMail-Name {
-    display: flex;
-    position: relative;
-    top: -440px;
-    margin-left: 23%;
-    font-size: 40px;
-  }
+    .project-box-2 {
+      height: 450px;
+      width: 900px;
+      margin: auto;
+      position: relative;
+      top: 20px;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.5;
+      border-radius: 3cqmin;
+      display: flex;
+      z-index: -1;
+      border: 2px solid #b5a997;
+    }
 
-  .AutoMail-WhatType {
-    display: flex;
-    position: relative;
-    top: -509px;
-    margin-left: 31%;
-    font-size: 23px;
-    color: #b5a997;
-    font-style: italic;
-    cursor: default;
-  }
+    .AutoMail-Name {
+      display: flex;
+      position: relative;
+      top: -440px;
+      margin-left: 23%;
+      font-size: 40px;
+    }
 
-  .AutoMail {
-    position: relative;
-    display: flex;
-    font-size: 25px;
-    top: -170px;
-  }
-
-  .AutoMail-Desc {
-    position: relative;
-    top: -340px;
-    font-size: 20px;
-    line-height: 50px;
-    color: #0b0a09;
-    margin-left: 23%;
-    max-width: 54%;
-    /* Adjust the value as needed */
-    word-wrap: break-word;
-    cursor: default;
-  }
-
-  .LanguagePython {
-    display: flex;
-    position: relative;
-    top: -500px;
-    margin-left: 23%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #b5a997;
-    cursor: default;
-    transition: transform 0.2s ease-out;
-    transition: 0.5s;
-  }
-
-  .LanguagePython:hover {
-    transform: translateY(-20px);
-  }
-
-  .view-two {
-    display: flex;
-    position: relative;
-    top: -556px;
-    margin-left: 70%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #0b0a09;
-    cursor: pointer;
-    transition: transform 0.2s ease-in;
-    text-decoration: none;
-    transition: 0.5s;
-  }
-
-  .view-two:hover {
-    background-color: #b5a997;
-    transform: translateY(-20px);
-  }
-
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
     .AutoMail-WhatType {
-      margin-left: 32%;
+      display: flex;
+      position: relative;
+      top: -509px;
+      margin-left: 31%;
+      font-size: 23px;
+      color: #b5a997;
+      font-style: italic;
+      cursor: default;
     }
 
-    .view-two {
-      top: -538px;
+    .AutoMail {
+      position: relative;
+      display: flex;
+      font-size: 25px;
+      top: -170px;
+    }
+
+    .AutoMail-Desc {
+      position: relative;
+      top: -340px;
+      font-size: 20px;
+      line-height: 50px;
+      color: #0b0a09;
+      margin-left: 23%;
+      max-width: 54%;
+      /* Adjust the value as needed */
+      word-wrap: break-word;
+      cursor: default;
     }
 
     .LanguagePython {
-      top: -482px;
+      display: flex;
+      position: relative;
+      top: -500px;
       margin-left: 23%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #b5a997;
+      cursor: default;
+      transition: transform 0.2s ease-out;
+      transition: 0.5s;
     }
 
-    top: -725px;
+    .LanguagePython:hover {
+      transform: translateY(-20px);
+    }
+
+    .view-two {
+      display: flex;
+      position: relative;
+      top: -556px;
+      margin-left: 70%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #0b0a09;
+      cursor: pointer;
+      transition: transform 0.2s ease-in;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    .view-two:hover {
+      background-color: #b5a997;
+      transform: translateY(-20px);
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+      /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
+      .AutoMail-WhatType {
+        margin-left: 32%;
+      }
+
+      .view-two {
+        top: -538px;
+      }
+
+      .LanguagePython {
+        top: -482px;
+        margin-left: 23%;
+      }
+
+      top: -725px;
+    }
   }
-}
 
-#project-3 {
-  position: relative;
-  top: -1090px;
-
-  .project-box-3 {
-    height: 350px;
-    width: 900px;
-    margin: auto;
+  #project-3 {
+    top: -1090px;
     position: relative;
-    top: -80px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5;
-    border-radius: 3cqmin;
-    display: flex;
-    z-index: -1;
-    border: 2px solid #b5a997;
-  }
 
-  .BlackJack-Name {
-    display: flex;
-    position: relative;
-    top: -440px;
-    margin-left: 23%;
-    font-size: 40px;
-  }
+    .project-box-3 {
+      height: 350px;
+      width: 900px;
+      margin: auto;
+      position: relative;
+      top: -80px;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.5;
+      border-radius: 3cqmin;
+      display: flex;
+      z-index: -1;
+      border: 2px solid #b5a997;
+    }
 
-  .BlackJack-WhatType {
-    display: flex;
-    position: relative;
-    top: -509px;
-    margin-left: 32%;
-    font-size: 23px;
-    color: #b5a997;
-    font-style: italic;
-    cursor: default;
-  }
+    .BlackJack-Name {
+      display: flex;
+      position: relative;
+      top: -440px;
+      margin-left: 23%;
+      font-size: 40px;
+    }
 
-  .BlackJack {
-    position: relative;
-    display: flex;
-    font-size: 25px;
-    top: -170px;
-  }
-
-  .BlackJack-Desc {
-    position: relative;
-    top: -340px;
-    font-size: 20px;
-    line-height: 50px;
-    color: #0b0a09;
-    margin-left: 23%;
-    max-width: 54%;
-    /* Adjust the value as needed */
-    word-wrap: break-word;
-    cursor: default;
-  }
-
-  .LanguagePython3 {
-    display: flex;
-    position: relative;
-    top: -500px;
-    margin-left: 23%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #b5a997;
-    cursor: default;
-    transition: transform 0.2s ease-out;
-    transition: 0.5s;
-  }
-
-  .LanguagePython3:hover {
-    transform: translateY(-20px);
-  }
-
-  .LanguageOOP {
-    display: flex;
-    position: relative;
-    top: -556px;
-    margin-left: 31%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 200px;
-    border-radius: 4px;
-    color: white;
-    background-color: #b5a997;
-    cursor: default;
-    transition: transform 0.2s ease-out;
-    transition: 0.5s;
-  }
-
-  .LanguageOOP:hover {
-    transform: translateY(-20px);
-  }
-
-  .view-three {
-    display: flex;
-    position: relative;
-    top: -612px;
-    margin-left: 70%;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border-radius: 4px;
-    color: white;
-    background-color: #0b0a09;
-    cursor: pointer;
-    transition: transform 0.2s ease-in;
-    text-decoration: none;
-    transition: 0.5s;
-  }
-
-  .view-three:hover {
-    background-color: #b5a997;
-    transform: translateY(-20px);
-  }
-
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
     .BlackJack-WhatType {
-      margin-left: 33%;
+      display: flex;
+      position: relative;
+      top: -509px;
+      margin-left: 32%;
+      font-size: 23px;
+      color: #b5a997;
+      font-style: italic;
+      cursor: default;
     }
 
-    .view-three {
-      top: -593px;
+    .BlackJack {
+      position: relative;
+      display: flex;
+      font-size: 25px;
+      top: -170px;
+    }
+
+    .BlackJack-Desc {
+      position: relative;
+      top: -340px;
+      font-size: 20px;
+      line-height: 50px;
+      color: #0b0a09;
+      margin-left: 23%;
+      max-width: 54%;
+      /* Adjust the value as needed */
+      word-wrap: break-word;
+      cursor: default;
     }
 
     .LanguagePython3 {
-      top: -482px;
+      display: flex;
+      position: relative;
+      top: -500px;
       margin-left: 23%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #b5a997;
+      cursor: default;
+      transition: transform 0.2s ease-out;
+      transition: 0.5s;
+    }
+
+    .LanguagePython3:hover {
+      transform: translateY(-20px);
     }
 
     .LanguageOOP {
-      top: -538px;
+      display: flex;
+      position: relative;
+      top: -556px;
+      margin-left: 31%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 200px;
+      border-radius: 4px;
+      color: white;
+      background-color: #b5a997;
+      cursor: default;
+      transition: transform 0.2s ease-out;
+      transition: 0.5s;
+    }
+
+    .LanguageOOP:hover {
+      transform: translateY(-20px);
+    }
+
+    .view-three {
+      display: flex;
+      position: relative;
+      top: -612px;
+      margin-left: 70%;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 100px;
+      border-radius: 4px;
+      color: white;
+      background-color: #0b0a09;
+      cursor: pointer;
+      transition: transform 0.2s ease-in;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    .view-three:hover {
+      background-color: #b5a997;
+      transform: translateY(-20px);
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+      /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
+      .BlackJack-WhatType {
+        margin-left: 33%;
+      }
+
+      .view-three {
+        top: -593px;
+      }
+
+      .LanguagePython3 {
+        top: -482px;
+        margin-left: 23%;
+      }
+
+      .LanguageOOP {
+        top: -538px;
+      }
     }
   }
+
+
+
 }
