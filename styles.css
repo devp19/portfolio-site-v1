@@ -149,8 +149,8 @@ body::before {
     transition: transform ease-out 300ms;
     padding: 10px;
     top: 490px;
+    font-size: 40px;
   }
-
 
   .fa-github:hover {
     color: #b5a997;
@@ -173,7 +173,6 @@ body::before {
     font-size: 40px;
   }
 
-
   .fa-linkedin-square:hover {
     display: flex;
     color: #b5a997;
@@ -195,8 +194,56 @@ body::before {
     color: #b5a997;
   }
 
-  @media only screen and (min-resolution: 192dpi) {
+  /* Media query for medium screens (1366x768 and similar) */
+  @media only screen and (min-width: 1152px) and (min-height: 648px) {
+    .title__text {
+      left: 85px;
+      top: 130px;
+      font-size: 61px;
+    }
 
+    .name__landing {
+      left: 280px;
+      top: -10px;
+      font-size: 180px;
+    }
+
+    .fa-github {
+      left: 651px;
+    }
+
+    .fa-linkedin-square {
+      left: 730px;
+    }
+
+    .go-down {
+      top: 620px;
+    }
+  }
+
+  @media only screen and (min-width: 1366px) and (min-height: 768px) {
+    .title__text {
+      left: 20px;
+    }
+
+    .name__landing {
+      left: 235px;
+    }
+
+    .fa-github {
+      left: 620px;
+    }
+
+    .fa-linkedin-square {
+      left: 700px;
+    }
+
+    .go-down {
+      top: 650px;
+    }
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
     /* Styles specific to MacBook Air 13-inch */
     .fa-github {
       top: 490px;
@@ -204,27 +251,28 @@ body::before {
       font-size: 40px;
     }
 
-    .fa-linkedin-square{
+    .fa-linkedin-square {
       left: 680px;
     }
   }
 
   @media only screen and (min-width: 1680px) and (min-height: 945px) {
-
     .title__text {
-      left: 110px;
-      top: 220px;
+      left: 90px;
+      top: 180px;
+      font-size: 80px;
     }
 
     .name__landing {
-      top:70px;
-      left: 327px;
+      top: -10px;
+      left: 367px;
+      font-size: 250px;
     }
 
     .homepage__image {
       top: 200px;
       height: 630px;
-      left: 270px;
+      left: 250px;
     }
 
     .go-down {
@@ -234,16 +282,16 @@ body::before {
 
     .fa-github {
       top: 620px;
-      left: 990px;
+      left: 960px;
       font-size: 50px;
     }
 
-    .fa-linkedin-square{
+    .fa-linkedin-square {
       top: 620px;
-      left: 1070px;
+      left: 1050px;
       font-size: 50px;
     }
-}
+  }
 }
 
 #about-me {
@@ -261,7 +309,6 @@ body::before {
   }
 
   @media only screen and (min-resolution: 192dpi) {
-
     /* Styles specific to MacBook Air 13-inch */
     .about__me {
       top: 40px;
@@ -296,7 +343,6 @@ body::before {
   }
 
   @media only screen and (min-resolution: 192dpi) {
-
     /* Styles specific to MacBook Air 13-inch */
     .blur-box {
       height: 550px;
@@ -324,15 +370,30 @@ body::before {
     cursor: default;
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* Media query for medium screens (1366x768 and similar) */
+  @media only screen and (min-width: 1152px) and (min-height: 648px) {
+    .aboutpara {
+      max-width: 59%;
+      left: 270px;
+      top: 26px;
+    }
+  }
 
+  @media only screen and (min-width: 1366px) and (min-height: 768px) {
+    .aboutpara {
+      max-width: 56%;
+      left: 300px;
+      top: 25px;
+    }
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     /* Styles specific to MacBook Air 13-inch */
     .aboutpara {
       top: 35px;
     }
   }
 
-  
   .go-up {
     position: absolute;
     /* Change from absolute to fixed for a fixed position */
@@ -355,8 +416,6 @@ body::before {
 
   /* Media query for large screens (1920x1080 and similar) */
   @media only screen and (min-width: 1680px) and (min-height: 945px) {
-
-  
     .aboutpara {
       left: 550px;
       max-width: 42%;
@@ -378,11 +437,8 @@ body::before {
     .go-up {
       top: 1680px;
     }
-
   }
-
 }
-
 
 /* PROJECT PAGE FOR CSS */
 
@@ -438,6 +494,11 @@ body::before {
   cursor: default;
 }
 
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+  .StockEye-WhatType {
+    margin-left: 32%;
+  }
+}
 
 .StockEye-Desc {
   display: flex;
@@ -555,7 +616,6 @@ body::before {
 }
 
 @media only screen and (min-resolution: 192dpi) {
-
   /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
   .view {
     top: 683px;
@@ -617,6 +677,12 @@ body::before {
   cursor: default;
 }
 
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+  .AutoMail-WhatType {
+    margin-left: 32%;
+  }
+}
+
 .AutoMail-Desc {
   position: absolute;
   top: 920px;
@@ -676,7 +742,6 @@ body::before {
 }
 
 @media only screen and (min-resolution: 192dpi) {
-
   /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
   .AutoMail-WhatType {
     margin-left: 32%;
@@ -725,6 +790,12 @@ body::before {
   color: #b5a997;
   font-style: italic;
   cursor: default;
+}
+
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+  .BlackJack-WhatType {
+    margin-left: 33%;
+  }
 }
 
 .BlackJack-Desc {
@@ -826,7 +897,6 @@ body::before {
 }
 
 @media only screen and (min-resolution: 192dpi) {
-
   /* Styles specific to MacBook Air 13-inch --> ORGINAL MARGIN IS 23 30 37 70*/
   .BlackJack-WhatType {
     margin-left: 33%;
@@ -846,54 +916,49 @@ body::before {
   }
 }
 
-
 @media only screen and (min-width: 1680px) and (min-height: 945px) {
-
-.StockEye-Name,
- .AutoMail-Name,
+  .StockEye-Name,
+  .AutoMail-Name,
   .BlackJack-Name {
-  margin-left: 28%;
-}
+    margin-left: 28%;
+  }
 
-.StockEye-Desc,
-.AutoMail-Desc,
-.BlackJack-Desc {
-  margin-left: 28%;
-  max-width: 43%;
-}
+  .StockEye-Desc,
+  .AutoMail-Desc,
+  .BlackJack-Desc {
+    margin-left: 28%;
+    max-width: 43%;
+  }
 
-.StockEye-WhatType,
-.AutoMail-WhatType{
-  margin-left: 35%;
-}
+  .StockEye-WhatType,
+  .AutoMail-WhatType {
+    margin-left: 35%;
+  }
 
-.BlackJack-WhatType {
-  margin-left: 36%;
-}
+  .BlackJack-WhatType {
+    margin-left: 36%;
+  }
 
-.LanguageJS,
- .LanguagePython,
- .LanguagePython3
-{
-  margin-left: 28%;
-}
+  .LanguageJS,
+  .LanguagePython,
+  .LanguagePython3 {
+    margin-left: 28%;
+  }
 
-.LanguageH {
-  margin-left: 40%;
-}
+  .LanguageH {
+    margin-left: 40%;
+  }
 
-.LanguageP,
-.LanguageOOP {
-  margin-left: 34%;
-}
+  .LanguageP,
+  .LanguageOOP {
+    margin-left: 34%;
+  }
 
-.view,
-.view-two,
-.view-three {
-  margin-left: 66%;
-}
-
-
+  .view,
+  .view-two,
+  .view-three {
+    margin-left: 66%;
+  }
 }
 
 ::-webkit-scrollbar {
