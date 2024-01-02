@@ -267,11 +267,10 @@ body::before {
     }
   }
 
-  @media only screen and (width: 1366px) and (min-height: 657px) {
+  @media only screen and (width: 1366px) and (min-height: 768px) {
     .title__text {
       left: 30px;
       top: 70px;
-      color: purple;
     }
 
     .name__landing {
