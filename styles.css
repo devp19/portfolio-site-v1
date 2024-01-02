@@ -271,6 +271,7 @@ body::before {
     .title__text {
       left: 30px;
       top: 70px;
+      color: purple;
     }
 
     .name__landing {
