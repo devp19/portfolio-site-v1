@@ -227,7 +227,7 @@ body::before {
     }
 
     .go-down {
-      top: 900px;
+      top: 850px;
       height: 400px;
     }
 
@@ -267,21 +267,34 @@ body::before {
     }
   }
 
-  @media only screen and (width: 1366px) and (min-height: 768px) {
+  @media only screen and (width: 1366px) and (min-height: 657px) {
     .title__text {
       left: 30px;
+      top: 70px;
     }
 
     .name__landing {
       left: 247px;
+      top: -80px;
     }
 
     .fa-github {
       left: 632px;
+      top: 460px;
     }
 
     .fa-linkedin-square {
       left: 710px;
+      top: 460px;
+    }
+
+    .go-down {
+      top: 570px;
+    }
+
+    .homepage__image {
+      height: 450px;
+      left: 150px;
     }
   }
 
@@ -447,7 +460,7 @@ body::before {
 
     .go-up {
       top: 1750px;
-      padding-bottom: 300px;
+      padding-bottom: 100px;
       right: 40px;
       font-size: 20px;
     }
@@ -471,11 +484,27 @@ body::before {
     }
   }
 
-  @media only screen and (width: 1366px) and (min-height: 768px) {
+  @media only screen and (width: 1366px) and (min-height: 657px) {
     .aboutpara {
-      left: 295px;
-      max-width: 57%;
+      left: 255px;
+      max-width: 62%;
+      top: 44x;
+    }
+    .blur-box {
+      height: 400px;
+    }
+
+    .about__me {
+      top: 90px;
+    }
+
+    .paragraph {
       top: 30px;
+    }
+
+    .go-up {
+      top: 1400px;
+      padding-bottom: 10px;
     }
   }
 
@@ -954,6 +983,20 @@ body::before {
   transform: translateY(-20px);
   display: flex;
   color: #b5a997;
+}
+
+@media only screen and (width: 1366px) and (min-height: 657px) {
+  .StockEye-WhatType {
+    left: 20px;
+  }
+
+  .AutoMail-WhatType {
+    left: 24px;
+  }
+
+  .BlackJack-WhatType {
+    left: 30px;
+  }
 }
 
 @media only screen and (min-resolution: 192dpi) {
